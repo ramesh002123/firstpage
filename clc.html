@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="clc.css">
+</head>
+<script src="clc.js"></script>
+<!-- <script>
+    function display(val){
+
+document.getElementById('result').value += val
+
+return val
+
+}
+</script> -->
+<body>
+    <div class="clc">
+    <table>
+        <tr>
+            <td colspan="4"><input type="text" class="top" id="result"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="AC" class="touch" onclick="clearScreen()"></td>
+            <td><input type="button" value="C" class="touch" onclick="back()"></td>
+            <td><input type="button" value="%" class="touch" onclick="display('%')"></td>
+            <td><input type="button" value="/" class="sum" onclick="display('/')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="7" class="touch" onclick="display('7')"></td>
+            <td><input type="button" value="8" class="touch" onclick="display('8')"></td>
+            <td><input type="button" value="9" class="touch" onclick="display('9')"></td>
+            <td><input type="button" value="*" class="sum1" onclick="display('*')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="4" class="touch" onclick="display('4')"></td>
+            <td><input type="button" value="5" class="touch" onclick="display('5')"></td>
+            <td><input type="button" value="6" class="touch" onclick="display('6')"></td>
+            <td><input type="button" value="-" class="sum2" onclick="display('-')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="1" class="touch" onclick="display('1')"></td>
+            <td><input type="button" value="2" class="touch" onclick="display('2')"></td>
+            <td><input type="button" value="3" class="touch" onclick="display('3')"></td>
+            <td><input type="button" value="+" class="sum" onclick="display('+')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="." class="touch" onclick="display('.')"></td>
+            <td><input type="button" value="0" class="touch" onclick="display('0')"></td>
+            <td colspan="2"><input type="button" value="=" class="enter" onclick="solve()"></td>
+        </tr>
+    </table>
+    <h3 class="one">Designed by One Plus</h3>
+    </div>
+</body>
+</html>

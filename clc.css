@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(12, 10, 10);
+}
+.clc{
+    /* background: black; */
+    background: rgba(255,255,255,0.1);
+    width: 300px;
+    height: 380px;
+    padding: 2cap;
+    border-style:solid ;
+    border-radius: 1cap;
+    padding-top: 6cap;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:5cap;
+}
+input{
+    border-style: solid;
+    width: 63px;
+    height: 50px;
+    padding: 1cap;
+    border-radius: 5cap;
+    margin-left: 2px;
+    font: 1.3em sans-serif;
+}
+.top{
+    width: 100%;
+    font: 1em sans-serif;
+    border-radius: 1cap;
+    margin-left: -10px;
+    background: none;
+    border: none;
+    color: beige;
+}
+.enter{
+    width: 150px;
+    /* background-color: orangered; */
+    background-color:rgb(249, 180, 3);
+    font: 1.5em sans-serif;
+    padding: 0.5cap;
+}
+.sum{
+    background-color:rgb(249, 180, 3);
+    font: 1.5em sans-serif;
+    /* padding: 15px; */
+    padding: 10px 38px;
+    text-align: center;
+    padding-top:10px;
+}
+.sum1{
+    background-color:rgb(249, 180, 3);
+    font: 2.2em sans-serif;
+    /* padding: 15px; */
+    padding: 20px 40px;
+    padding-top: 10px;
+}
+.sum2{
+    background-color:rgb(249, 180, 3);
+    font: 2.2em sans-serif;
+    /* padding: 15px; */
+    padding: 20px 40px;
+    padding-top: 0;
+}
+h3{
+    text-align: end;
+}
+.touch:hover{
+    background-color: rgb(240, 140, 140);
+    /* background-color: rgb(243, 169, 181); */
+}
+.sum:hover,.sum1:hover,.sum2:hover,.enter:hover{
+    background-color: chocolate;
+}
